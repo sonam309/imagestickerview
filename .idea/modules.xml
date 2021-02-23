@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/imagestickerview.iml" filepath="$PROJECT_DIR$/.idea/imagestickerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImageSticker.iml" filepath="$PROJECT_DIR$/.idea/modules/ImageSticker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImageStickerLibrary/ImageSticker.ImageStickerLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/ImageStickerLibrary/ImageSticker.ImageStickerLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ImageSticker.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ImageSticker.app.iml" />
     </modules>
   </component>
 </project>

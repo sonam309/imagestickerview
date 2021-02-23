@@ -1,0 +1,3 @@
+include ':ImageStickerLibrary'
+include ':app'
+rootProject.name = "ImageSticker"
