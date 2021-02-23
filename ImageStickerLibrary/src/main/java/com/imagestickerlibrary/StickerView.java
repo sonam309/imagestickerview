@@ -132,12 +132,7 @@ public abstract class StickerView extends FrameLayout {
                         convertDpToPixel(BUTTON_SIZE_DP, getContext())
                 );
         iv_rotate_params.gravity = Gravity.BOTTOM | Gravity.LEFT;
-        LayoutParams iv_edit_params =
-                new LayoutParams(
-                        convertDpToPixel(BUTTON_SIZE_DP, getContext()),
-                        convertDpToPixel(BUTTON_SIZE_DP, getContext())
-                );
-        iv_edit_params.gravity = Gravity.TOP | Gravity.LEFT;
+
 
         this.setLayoutParams(this_params);
         this.addView(getMainView(), iv_main_params);
@@ -462,12 +457,14 @@ public abstract class StickerView extends FrameLayout {
             iv_delete.setVisibility(View.GONE);
             iv_flip.setVisibility(View.GONE);
             iv_scale.setVisibility(View.GONE);
+            iv_rotate.setVisibility(View.GONE);
 
         } else {
             iv_border.setVisibility(View.VISIBLE);
             iv_delete.setVisibility(View.VISIBLE);
             iv_flip.setVisibility(View.VISIBLE);
             iv_scale.setVisibility(View.VISIBLE);
+            iv_rotate.setVisibility(View.VISIBLE);
 
         }
 

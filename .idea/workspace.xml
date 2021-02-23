@@ -7,9 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="467b4122-2b28-4c8d-a6f7-28ab2573b72d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,30 +130,38 @@
       <option name="project" value="LOCAL" />
       <updated>1614075666119</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixes">
+      <created>1614079377685</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614079377685</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add library" />
-    <option name="LAST_COMMIT_MESSAGE" value="add library" />
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="203" y="105" width="950" height="530" key="#PSD" timestamp="1614064223412">
       <screen x="0" y="27" width="1366" height="688" />
     </state>
     <state x="203" y="105" width="950" height="530" key="#PSD/0.27.1366.688@0.27.1366.688" timestamp="1614064223412" />
-    <state x="175" y="27" width="1005" height="688" key="CommitChangelistDialog2" timestamp="1614075665946">
+    <state x="175" y="27" width="1005" height="688" key="CommitChangelistDialog2" timestamp="1614079377615">
       <screen x="0" y="27" width="1366" height="688" />
     </state>
-    <state x="175" y="27" width="1005" height="688" key="CommitChangelistDialog2/0.27.1366.688@0.27.1366.688" timestamp="1614075665946" />
+    <state x="175" y="27" width="1005" height="688" key="CommitChangelistDialog2/0.27.1366.688@0.27.1366.688" timestamp="1614079377615" />
     <state x="428" y="113" width="489" height="513" key="FileChooserDialogImpl" timestamp="1614075325093">
       <screen x="0" y="27" width="1366" height="688" />
     </state>
     <state x="428" y="113" width="489" height="513" key="FileChooserDialogImpl/0.27.1366.688@0.27.1366.688" timestamp="1614075325093" />
-    <state x="278" y="92" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1614075671519">
+    <state x="278" y="92" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1614079380394">
       <screen x="0" y="27" width="1366" height="688" />
     </state>
-    <state x="278" y="92" width="800" height="556" key="Vcs.Push.Dialog.v2/0.27.1366.688@0.27.1366.688" timestamp="1614075671519" />
+    <state x="278" y="92" width="800" height="556" key="Vcs.Push.Dialog.v2/0.27.1366.688@0.27.1366.688" timestamp="1614079380394" />
     <state x="349" y="27" width="648" height="688" key="psd.add.module.dependency.panel.dimension" timestamp="1614064219116">
       <screen x="0" y="27" width="1366" height="688" />
     </state>
