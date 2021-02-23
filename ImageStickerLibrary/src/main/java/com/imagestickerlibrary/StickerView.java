@@ -241,12 +241,12 @@ public abstract class StickerView extends FrameLayout {
                         Log.v(TAG, "angle_diff: "+angle_diff);
 
 
-                        double offsetX = event.getRawX() - scale_orgX;
-                        double offsetY = event.getRawY() - scale_orgY;
+                        double offsetX = (event.getRawX() - scale_orgX);
+                        double offsetY = (event.getRawY() - scale_orgY);
                         double offset = Math.max(offsetX, offsetY);
 
-                       StickerView.this.getLayoutParams().width += offsetX;
-                        StickerView.this.getLayoutParams().height += offsetY;
+                       StickerView.this.getLayoutParams().width += offset;
+                        StickerView.this.getLayoutParams().height += offset;
                         onScaling(true);
 
                         rotate_orgX = rotate_newX;

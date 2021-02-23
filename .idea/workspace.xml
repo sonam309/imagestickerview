@@ -7,120 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="467b4122-2b28-4c8d-a6f7-28ab2573b72d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/androidTest/java/com/imagestickerlibrary/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/ic_delete-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/ic_flip-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/ic_rotation-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/ic_scale-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/BorderView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerImageView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_delete_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_flip_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_rotation_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_scale_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_delete.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_delete_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_flip.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_flip_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_rotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_rotation_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_scale.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_scale_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_delete_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_flip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_flip_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_rotation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_rotation_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_scale_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_delete_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_flip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_flip_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_rotation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_rotation_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_scale_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_delete_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_flip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_flip_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_rotation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_rotation_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_scale_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_delete_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_flip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_flip_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_rotation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_rotation_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_scale_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_delete_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_flip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_flip_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_rotation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_rotation_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_scale_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/values/ic_delete_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/values/ic_flip_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/values/ic_rotation_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/values/ic_scale_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/test/java/com/imagestickerlibrary/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/imagesticker/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/imagesticker/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/imagesticker/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/imagestickerview.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android-custom-view/home/android0004/Downloads/ImageSticker/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/BorderView.java_SELECTED" value="BorderView" />
     <property name="android-custom-view/home/android0004/Downloads/ImageSticker/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerImageView.java_SELECTED" value="StickerImageView" />
     <property name="android-custom-view/home/android0004/Downloads/ImageSticker/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerView.java_SELECTED" value="StickerView" />
@@ -235,17 +125,37 @@
       <option name="presentableId" value="Default" />
       <updated>1614063152260</updated>
     </task>
+    <task id="LOCAL-00001" summary="add library">
+      <created>1614075666119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614075666119</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add library" />
+    <option name="LAST_COMMIT_MESSAGE" value="add library" />
   </component>
   <component name="WindowStateProjectService">
     <state x="203" y="105" width="950" height="530" key="#PSD" timestamp="1614064223412">
       <screen x="0" y="27" width="1366" height="688" />
     </state>
     <state x="203" y="105" width="950" height="530" key="#PSD/0.27.1366.688@0.27.1366.688" timestamp="1614064223412" />
+    <state x="175" y="27" width="1005" height="688" key="CommitChangelistDialog2" timestamp="1614075665946">
+      <screen x="0" y="27" width="1366" height="688" />
+    </state>
+    <state x="175" y="27" width="1005" height="688" key="CommitChangelistDialog2/0.27.1366.688@0.27.1366.688" timestamp="1614075665946" />
     <state x="428" y="113" width="489" height="513" key="FileChooserDialogImpl" timestamp="1614075325093">
       <screen x="0" y="27" width="1366" height="688" />
     </state>
     <state x="428" y="113" width="489" height="513" key="FileChooserDialogImpl/0.27.1366.688@0.27.1366.688" timestamp="1614075325093" />
+    <state x="278" y="92" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1614075671519">
+      <screen x="0" y="27" width="1366" height="688" />
+    </state>
+    <state x="278" y="92" width="800" height="556" key="Vcs.Push.Dialog.v2/0.27.1366.688@0.27.1366.688" timestamp="1614075671519" />
     <state x="349" y="27" width="648" height="688" key="psd.add.module.dependency.panel.dimension" timestamp="1614064219116">
       <screen x="0" y="27" width="1366" height="688" />
     </state>
