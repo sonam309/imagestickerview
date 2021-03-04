@@ -7,7 +7,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="467b4122-2b28-4c8d-a6f7-28ab2573b72d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_flip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_rotation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/values/rotation_ic_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/rotation_ic-playstore.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_delete_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_flip_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_rotation_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_scale_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_delete.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_delete_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_flip.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_flip_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_rotation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_rotation_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_scale.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_scale_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_delete_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_flip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_flip_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_rotation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_rotation_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_scale_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_delete_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_flip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_flip_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_rotation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_rotation_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_scale_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_delete_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_flip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_flip_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_rotation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_rotation_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_scale_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_delete_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_flip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_flip_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_rotation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_rotation_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_scale_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_delete_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_flip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_flip_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_rotation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_rotation_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_scale_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/imagesticker/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/imagesticker/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +94,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-view/home/android0004/Android/Sdk/sources/android-30/android/view/ViewGroup.java_SELECTED" value="ViewGroup" />
     <property name="android-custom-view/home/android0004/Downloads/ImageSticker/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/BorderView.java_SELECTED" value="BorderView" />
     <property name="android-custom-view/home/android0004/Downloads/ImageSticker/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerImageView.java_SELECTED" value="StickerImageView" />
     <property name="android-custom-view/home/android0004/Downloads/ImageSticker/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerView.java_SELECTED" value="StickerView" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable" />
+    <property name="multi-representation-preview/home/android0004/Android/Sdk/sources/android-30/android/view/ViewGroup.java_selected" value="Custom views" />
     <property name="multi-representation-preview/home/android0004/Downloads/ImageSticker/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/BorderView.java_selected" value="Custom views" />
     <property name="multi-representation-preview/home/android0004/Downloads/ImageSticker/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerImageView.java_selected" value="Custom views" />
     <property name="multi-representation-preview/home/android0004/Downloads/ImageSticker/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerView.java_selected" value="Custom views" />
@@ -48,6 +111,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$/ImageStickerLibrary/src/main/java/com/imagestickerlibrary" />
     </key>
   </component>
@@ -137,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614079377685</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixes">
+      <created>1614080672037</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614080672037</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -150,18 +221,22 @@
       <screen x="0" y="27" width="1366" height="688" />
     </state>
     <state x="203" y="105" width="950" height="530" key="#PSD/0.27.1366.688@0.27.1366.688" timestamp="1614064223412" />
-    <state x="175" y="27" width="1005" height="688" key="CommitChangelistDialog2" timestamp="1614079377615">
+    <state x="416" y="119" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614858609842">
       <screen x="0" y="27" width="1366" height="688" />
     </state>
-    <state x="175" y="27" width="1005" height="688" key="CommitChangelistDialog2/0.27.1366.688@0.27.1366.688" timestamp="1614079377615" />
+    <state x="416" y="119" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.688@0.27.1366.688" timestamp="1614858609842" />
+    <state x="175" y="27" width="1005" height="688" key="CommitChangelistDialog2" timestamp="1614080671932">
+      <screen x="0" y="27" width="1366" height="688" />
+    </state>
+    <state x="175" y="27" width="1005" height="688" key="CommitChangelistDialog2/0.27.1366.688@0.27.1366.688" timestamp="1614080671932" />
     <state x="428" y="113" width="489" height="513" key="FileChooserDialogImpl" timestamp="1614075325093">
       <screen x="0" y="27" width="1366" height="688" />
     </state>
     <state x="428" y="113" width="489" height="513" key="FileChooserDialogImpl/0.27.1366.688@0.27.1366.688" timestamp="1614075325093" />
-    <state x="278" y="92" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1614079380394">
+    <state x="278" y="92" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1614080673348">
       <screen x="0" y="27" width="1366" height="688" />
     </state>
-    <state x="278" y="92" width="800" height="556" key="Vcs.Push.Dialog.v2/0.27.1366.688@0.27.1366.688" timestamp="1614079380394" />
+    <state x="278" y="92" width="800" height="556" key="Vcs.Push.Dialog.v2/0.27.1366.688@0.27.1366.688" timestamp="1614080673348" />
     <state x="349" y="27" width="648" height="688" key="psd.add.module.dependency.panel.dimension" timestamp="1614064219116">
       <screen x="0" y="27" width="1366" height="688" />
     </state>

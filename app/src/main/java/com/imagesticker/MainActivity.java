@@ -3,6 +3,8 @@ package com.imagesticker;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.MotionEvent;
+import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
@@ -21,8 +23,20 @@ public class MainActivity extends AppCompatActivity {
         parent=findViewById(R.id.parent);
 
         StickerImageView stickerImageView= new StickerImageView(this);
-        stickerImageView.setImageDrawable(getResources().getDrawable(R.drawable.ic_delete_foreground));
+        stickerImageView.setImageDrawable(getResources().getDrawable(R.drawable.ic_delete));
         parent.addView(stickerImageView);
+
+
+        parent.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+
+                stickerImageView.setControlsVisibility(false);
+
+
+                return true;
+            }
+        });
 
     }
 }
