@@ -148,8 +148,6 @@ public abstract class StickerView extends FrameLayout {
         this.iv_rotate.setOnTouchListener(mTouchListener);
 
 
-
-
         this.iv_delete.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -173,7 +171,6 @@ public abstract class StickerView extends FrameLayout {
         });
 
 
-
     }
 
 
@@ -191,7 +188,7 @@ public abstract class StickerView extends FrameLayout {
         @Override
         public boolean onTouch(View view, MotionEvent event) {
 
-             if(view.getTag().equals("iv_scale")){
+            if (view.getTag().equals("iv_scale")) {
                 switch (event.getAction()) {
                     case MotionEvent.ACTION_DOWN:
                         Log.v(TAG, "iv_scale action down");
@@ -207,9 +204,9 @@ public abstract class StickerView extends FrameLayout {
                         rotate_orgX = event.getRawX();
                         rotate_orgY = event.getRawY();
 
-                        centerX = StickerView.this.getX()+
-                                ((View) StickerView.this.getParent()).getX()+
-                                (float) StickerView.this.getWidth()/2;
+                        centerX = StickerView.this.getX() +
+                                ((View) StickerView.this.getParent()).getX() +
+                                (float) StickerView.this.getWidth() / 2;
 
 
                         int result = 0;
@@ -218,10 +215,10 @@ public abstract class StickerView extends FrameLayout {
                             result = getResources().getDimensionPixelSize(resourceId);
                         }
                         double statusBarHeight = result;
-                        centerY = StickerView.this.getY()+
-                                ((View) StickerView.this.getParent()).getY()+
-                                statusBarHeight+
-                                (float) StickerView.this.getHeight()/2;
+                        centerY = StickerView.this.getY() +
+                                ((View) StickerView.this.getParent()).getY() +
+                                statusBarHeight +
+                                (float) StickerView.this.getHeight() / 2;
 
                         break;
                     case MotionEvent.ACTION_MOVE:
@@ -231,19 +228,31 @@ public abstract class StickerView extends FrameLayout {
                         rotate_newY = event.getRawY();
 
                         double angle_diff = Math.abs(
-                                Math.atan2(event.getRawY() - scale_orgY , event.getRawX() - scale_orgX)
-                                        - Math.atan2(scale_orgY - centerY, scale_orgX - centerX))*180/Math.PI;
+                                Math.atan2(event.getRawY() - scale_orgY, event.getRawX() - scale_orgX)
+                                        - Math.atan2(scale_orgY - centerY, scale_orgX - centerX)) * 180 / Math.PI;
 
-                        Log.v(TAG, "angle_diff: "+angle_diff);
+                        Log.v(TAG, "angle_diff: " + angle_diff);
 
 
                         double offsetX = (event.getRawX() - scale_orgX);
                         double offsetY = (event.getRawY() - scale_orgY);
                         double offset = Math.max(offsetX, offsetY);
 
-                       StickerView.this.getLayoutParams().width += offset;
-                        StickerView.this.getLayoutParams().height += offset;
-                        onScaling(true);
+                        float width = iv_rotate.getLayoutParams().width;
+                        float size = width * 2;
+
+
+
+                        float width_sticker = (float) (StickerView.this.getLayoutParams().width + offset);
+
+
+                        if (size <= width_sticker) {
+
+                            StickerView.this.getLayoutParams().width += offset;
+                            StickerView.this.getLayoutParams().height += offset;
+                            onScaling(true);
+
+                        }
 
                         rotate_orgX = rotate_newX;
                         rotate_orgY = rotate_newY;
@@ -258,101 +267,98 @@ public abstract class StickerView extends FrameLayout {
                         Log.v(TAG, "iv_scale action up");
                         break;
                 }
+            } else if (view.getTag().equals("DraggableViewGroup")) {
+
+                StickerView.this.setControlsVisibility(true);
+
+
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_MOVE:
+                        StickerView.this.setX((int) (StartPT.x + event.getX() - DownPT.x));
+                        StickerView.this.setY((int) (StartPT.y + event.getY() - DownPT.y));
+                        StartPT.set(StickerView.this.getX(), StickerView.this.getY());
+                        break;
+                    case MotionEvent.ACTION_DOWN:
+                        DownPT.set(event.getX(), event.getY());
+                        StartPT.set(StickerView.this.getX(), StickerView.this.getY());
+                        break;
+                    case MotionEvent.ACTION_UP:
+                        // Nothing have to do
+                        break;
+                    default:
+                        break;
+                }
+
+            } else if (view.getTag().equals("iv_rotate")) {
+
+                StickerView rl = (StickerView) view.getParent();
+
+
+                switch (event.getAction()) {
+                    case MotionEvent.ACTION_DOWN:
+                        if (rl != null) {
+                            rl.requestDisallowInterceptTouchEvent(true);
+                        }
+
+                        Rect rect = new Rect();
+
+                        ((View) view.getParent()).getGlobalVisibleRect(rect);
+
+                        cX = rect.exactCenterX();
+                        cY = rect.exactCenterY();
+
+                        vAngle = ((View) view.getParent()).getRotation();
+
+                        tAngle = Math.atan2(cY - event.getRawY(), cX - event.getRawX()) * 180 / Math.PI;
+
+                        dAngle = vAngle - tAngle;
+
+                        break;
+                    case MotionEvent.ACTION_MOVE:
+                        if (rl != null) {
+                            rl.requestDisallowInterceptTouchEvent(true);
+                        }
+
+                        angle = Math.atan2(cY - event.getRawY(), cX - event.getRawX()) * 180 / Math.PI;
+                        float rotation = (float) (angle + dAngle);
+                        ((View) view.getParent()).setRotation(rotation);
+
+                        ((View) view.getParent()).invalidate();
+                        ((View) view.getParent()).requestLayout();
+
+
+                        float res = Math.abs(90 - Math.abs(rotation));
+                        if (res <= 5) {
+                            if (rotation > 0)
+                                rotation = 90f;
+                            else
+                                rotation = -90f;
+                        }
+
+                        res = Math.abs(0 - Math.abs(rotation));
+                        if (res <= 5) {
+                            if (rotation > 0)
+                                rotation = 0f;
+                            else
+                                rotation = -0f;
+                        }
+
+                        res = Math.abs(180 - Math.abs(rotation));
+                        if (res <= 5) {
+                            if (rotation > 0)
+                                rotation = 180f;
+                            else
+                                rotation = -180f;
+                        }
+                        ((View) view.getParent()).setRotation(rotation);
+                        break;
+                    case MotionEvent.ACTION_UP:
+
+
+                        break;
+                }
+
             }
-             else if(view.getTag().equals("DraggableViewGroup")){
-
-                 StickerView.this.setControlsVisibility(true);
-
-
-                 switch (event.getAction()) {
-                     case MotionEvent.ACTION_MOVE:
-                         StickerView.this.setX((int) (StartPT.x + event.getX() - DownPT.x));
-                         StickerView.this.setY((int) (StartPT.y + event.getY() - DownPT.y));
-                         StartPT.set(StickerView.this.getX(),StickerView.this.getY());
-                         break;
-                     case MotionEvent.ACTION_DOWN:
-                         DownPT.set(event.getX(), event.getY());
-                         StartPT.set(StickerView.this.getX(), StickerView.this.getY());
-                         break;
-                     case MotionEvent.ACTION_UP:
-                         // Nothing have to do
-                         break;
-                     default:
-                         break;
-                 }
-
-             }
-             else if(view.getTag().equals("iv_rotate")){
-
-                 StickerView rl = (StickerView) view.getParent();
-
-
-                 switch (event.getAction()) {
-                     case MotionEvent.ACTION_DOWN:
-                         if (rl != null) {
-                             rl.requestDisallowInterceptTouchEvent(true);
-                         }
-
-                         Rect rect = new Rect();
-
-                         ((View) view.getParent()).getGlobalVisibleRect(rect);
-
-                         cX = rect.exactCenterX();
-                         cY = rect.exactCenterY();
-
-                         vAngle = ((View) view.getParent()).getRotation();
-
-                         tAngle = Math.atan2(cY - event.getRawY(), cX - event.getRawX()) * 180 / Math.PI;
-
-                         dAngle = vAngle - tAngle;
-
-                         break;
-                     case MotionEvent.ACTION_MOVE:
-                         if (rl != null) {
-                             rl.requestDisallowInterceptTouchEvent(true);
-                         }
-
-                         angle = Math.atan2(cY - event.getRawY(), cX - event.getRawX()) * 180 / Math.PI;
-                         float rotation = (float) (angle + dAngle);
-                         ((View) view.getParent()).setRotation(rotation);
-
-                         ((View) view.getParent()).invalidate();
-                         ((View) view.getParent()).requestLayout();
-
-
-                         float res = Math.abs(90 - Math.abs(rotation));
-                         if (res <= 5) {
-                             if (rotation > 0)
-                                 rotation = 90f;
-                             else
-                                 rotation = -90f;
-                         }
-
-                         res = Math.abs(0 - Math.abs(rotation));
-                         if (res <= 5) {
-                             if (rotation > 0)
-                                 rotation = 0f;
-                             else
-                                 rotation = -0f;
-                         }
-
-                         res = Math.abs(180 - Math.abs(rotation));
-                         if (res <= 5) {
-                             if (rotation > 0)
-                                 rotation = 180f;
-                             else
-                                 rotation = -180f;
-                         }
-                         ((View) view.getParent()).setRotation(rotation);
-                         break;
-                     case MotionEvent.ACTION_UP:
-
-
-
-                         break;
-                 }
-
-             }
 
             return true;
         }

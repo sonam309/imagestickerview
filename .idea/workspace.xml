@@ -7,75 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="467b4122-2b28-4c8d-a6f7-28ab2573b72d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_flip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_rotation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/values/rotation_ic_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/rotation_ic-playstore.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_delete_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_flip_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_rotation_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable/ic_scale_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_delete.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_delete_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_flip.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_flip_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_rotation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_rotation_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_scale.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-anydpi-v26/ic_scale_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_delete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_delete_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_flip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_flip_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_rotation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_rotation_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_scale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-hdpi/ic_scale_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_delete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_delete_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_flip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_flip_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_rotation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_rotation_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_scale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-mdpi/ic_scale_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_delete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_delete_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_flip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_flip_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_rotation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_rotation_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_scale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xhdpi/ic_scale_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_delete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_delete_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_flip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_flip_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_rotation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_rotation_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_scale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxhdpi/ic_scale_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_delete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_delete_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_flip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_flip_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_rotation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_rotation_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_scale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/mipmap-xxxhdpi/ic_scale_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/imagesticker/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/imagesticker/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[5fbbdc8b]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -91,15 +31,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="xiaomi-redmi_note_5_pro-5fbbdc8b" />
+    <property name="DEBUGGABLE_PROCESS" value="com.imagesticker" />
+    <property name="DEBUGGER_ID" value="Auto" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android-custom-view/home/android0004/Android/Sdk/sources/android-30/android/view/View.java_SELECTED" value="View" />
     <property name="android-custom-view/home/android0004/Android/Sdk/sources/android-30/android/view/ViewGroup.java_SELECTED" value="ViewGroup" />
     <property name="android-custom-view/home/android0004/Downloads/ImageSticker/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/BorderView.java_SELECTED" value="BorderView" />
     <property name="android-custom-view/home/android0004/Downloads/ImageSticker/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerImageView.java_SELECTED" value="StickerImageView" />
     <property name="android-custom-view/home/android0004/Downloads/ImageSticker/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerView.java_SELECTED" value="StickerView" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ImageStickerLibrary/src/main/res/drawable" />
+    <property name="multi-representation-preview/home/android0004/Android/Sdk/sources/android-30/android/view/View.java_selected" value="Custom views" />
     <property name="multi-representation-preview/home/android0004/Android/Sdk/sources/android-30/android/view/ViewGroup.java_selected" value="Custom views" />
     <property name="multi-representation-preview/home/android0004/Downloads/ImageSticker/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/BorderView.java_selected" value="Custom views" />
     <property name="multi-representation-preview/home/android0004/Downloads/ImageSticker/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerImageView.java_selected" value="Custom views" />
@@ -208,13 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614080672037</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changes">
+      <created>1614860305967</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614860305975</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add library" />
     <MESSAGE value="fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="203" y="105" width="950" height="530" key="#PSD" timestamp="1614064223412">
@@ -225,21 +179,77 @@
       <screen x="0" y="27" width="1366" height="688" />
     </state>
     <state x="416" y="119" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.688@0.27.1366.688" timestamp="1614858609842" />
-    <state x="175" y="27" width="1005" height="688" key="CommitChangelistDialog2" timestamp="1614080671932">
+    <state x="441" y="114" key="#xdebugger.evaluate" timestamp="1614921398362">
       <screen x="0" y="27" width="1366" height="688" />
     </state>
-    <state x="175" y="27" width="1005" height="688" key="CommitChangelistDialog2/0.27.1366.688@0.27.1366.688" timestamp="1614080671932" />
+    <state x="441" y="114" key="#xdebugger.evaluate/0.27.1366.688@0.27.1366.688" timestamp="1614921398362" />
+    <state x="436" y="117" width="493" height="505" key="AndroidProcessChooserDialog" timestamp="1614926951933">
+      <screen x="0" y="27" width="1366" height="688" />
+    </state>
+    <state x="436" y="117" width="493" height="505" key="AndroidProcessChooserDialog/0.27.1366.688@0.27.1366.688" timestamp="1614926951933" />
+    <state x="175" y="27" width="1005" height="688" key="CommitChangelistDialog2" timestamp="1614860304970">
+      <screen x="0" y="27" width="1366" height="688" />
+    </state>
+    <state x="175" y="27" width="1005" height="688" key="CommitChangelistDialog2/0.27.1366.688@0.27.1366.688" timestamp="1614860304970" />
     <state x="428" y="113" width="489" height="513" key="FileChooserDialogImpl" timestamp="1614075325093">
       <screen x="0" y="27" width="1366" height="688" />
     </state>
     <state x="428" y="113" width="489" height="513" key="FileChooserDialogImpl/0.27.1366.688@0.27.1366.688" timestamp="1614075325093" />
-    <state x="278" y="92" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1614080673348">
+    <state width="1320" height="78" key="GridCell.Tab.0.bottom" timestamp="1614927057636">
       <screen x="0" y="27" width="1366" height="688" />
     </state>
-    <state x="278" y="92" width="800" height="556" key="Vcs.Push.Dialog.v2/0.27.1366.688@0.27.1366.688" timestamp="1614080673348" />
+    <state width="1320" height="78" key="GridCell.Tab.0.bottom/0.27.1366.688@0.27.1366.688" timestamp="1614927057636" />
+    <state width="1320" height="78" key="GridCell.Tab.0.center" timestamp="1614927057635">
+      <screen x="0" y="27" width="1366" height="688" />
+    </state>
+    <state width="1320" height="78" key="GridCell.Tab.0.center/0.27.1366.688@0.27.1366.688" timestamp="1614927057635" />
+    <state width="1320" height="78" key="GridCell.Tab.0.left" timestamp="1614927057634">
+      <screen x="0" y="27" width="1366" height="688" />
+    </state>
+    <state width="1320" height="78" key="GridCell.Tab.0.left/0.27.1366.688@0.27.1366.688" timestamp="1614927057634" />
+    <state width="1320" height="78" key="GridCell.Tab.0.right" timestamp="1614927057635">
+      <screen x="0" y="27" width="1366" height="688" />
+    </state>
+    <state width="1320" height="78" key="GridCell.Tab.0.right/0.27.1366.688@0.27.1366.688" timestamp="1614927057635" />
+    <state width="1320" height="78" key="GridCell.Tab.1.bottom" timestamp="1614927057637">
+      <screen x="0" y="27" width="1366" height="688" />
+    </state>
+    <state width="1320" height="78" key="GridCell.Tab.1.bottom/0.27.1366.688@0.27.1366.688" timestamp="1614927057637" />
+    <state width="1320" height="78" key="GridCell.Tab.1.center" timestamp="1614927057636">
+      <screen x="0" y="27" width="1366" height="688" />
+    </state>
+    <state width="1320" height="78" key="GridCell.Tab.1.center/0.27.1366.688@0.27.1366.688" timestamp="1614927057636" />
+    <state width="1320" height="78" key="GridCell.Tab.1.left" timestamp="1614927057636">
+      <screen x="0" y="27" width="1366" height="688" />
+    </state>
+    <state width="1320" height="78" key="GridCell.Tab.1.left/0.27.1366.688@0.27.1366.688" timestamp="1614927057636" />
+    <state width="1320" height="78" key="GridCell.Tab.1.right" timestamp="1614927057637">
+      <screen x="0" y="27" width="1366" height="688" />
+    </state>
+    <state width="1320" height="78" key="GridCell.Tab.1.right/0.27.1366.688@0.27.1366.688" timestamp="1614927057637" />
+    <state x="278" y="92" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1614860308956">
+      <screen x="0" y="27" width="1366" height="688" />
+    </state>
+    <state x="278" y="92" width="800" height="556" key="Vcs.Push.Dialog.v2/0.27.1366.688@0.27.1366.688" timestamp="1614860308956" />
     <state x="349" y="27" width="648" height="688" key="psd.add.module.dependency.panel.dimension" timestamp="1614064219116">
       <screen x="0" y="27" width="1366" height="688" />
     </state>
     <state x="349" y="27" width="648" height="688" key="psd.add.module.dependency.panel.dimension/0.27.1366.688@0.27.1366.688" timestamp="1614064219116" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerView.java</url>
+          <line>238</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/ImageStickerLibrary/src/main/java/com/imagestickerlibrary/StickerView.java</url>
+          <line>248</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
