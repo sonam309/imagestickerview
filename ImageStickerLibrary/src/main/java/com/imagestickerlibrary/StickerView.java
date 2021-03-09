@@ -242,7 +242,6 @@ public abstract class StickerView extends FrameLayout {
                         float size = width * 2;
 
 
-
                         float width_sticker = (float) (StickerView.this.getLayoutParams().width + offset);
 
 
